@@ -1,6 +1,6 @@
 """Zbieznosc metod iteracyjnych"""
 
-import przyklad0, zadanie, iteracyjne
+import przyklad0, zadanie, iteracyjne,zadanie1,zadanie2
 
 def testy(typ):
     if typ == 1:    
@@ -37,7 +37,13 @@ def testy(typ):
         test7.page_rank_iteracja()
     elif typ == 8:
         # tutaj mozna zrealizowac zadania
-        pass
+        test8=zadanie1.Zadanie1()
+        test8.testy()
+    elif typ == 9:
+        # tutaj mozna zrealizowac zadania
+        test9=zadanie2.Zadanie2()
+        test9.testy()
+        
     
 if __name__ == '__main__':
-    testy(1)
+    testy(8)
